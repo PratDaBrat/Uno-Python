@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 from card import *
 from hand import *
 from player import *
