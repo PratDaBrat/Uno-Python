@@ -81,9 +81,6 @@ class Game():
 
 				if checkCards(players[i]) and check == 1:
 					playable = []					
-					#print("Player " + str(i+1) + "'s hand: ",end = " ")
-					#print(players[i].playerHand.showCards())
-
 					for card in players[i].playerHand.cards:
 						if self.isPlayable(card):
 							playable.append(card)
